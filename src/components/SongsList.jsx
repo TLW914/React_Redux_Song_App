@@ -30,7 +30,7 @@ class SongsList extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    console.log(state)
+    console.log("map state to props", state)
     return { songs: state.songs };
 }
 

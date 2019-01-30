@@ -1,8 +1,7 @@
 //action creators
-
     //export named export 
     export const selectSong = song => {
-        //return an action
+        //return an action (actions are objects)
         //must have a type property
         //optional payload property
         return {
